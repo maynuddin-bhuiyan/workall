@@ -1,46 +1,112 @@
+/* --------------------------------
+  Common css or Utilize  Start                          
+----------------------------------*/
+
 body{
-    background: linear-gradient(to right, #2c2424, #d8d8df);
-        
-    }
-    
-    button{
-        padding: 20px;
-        border: 2px solid whitesmoke;
-        border-radius: 10px;
-        background: goldenrod;
-        color: white;
-        cursor: pointer;
-        font-size: 20px;
-        margin-left: 400px;
-        margin-bottom: 50px;
+    background: linear-gradient(to right, #2c2424, #7878aa);
+}
 
-     }
-
-     h1{
-         color: rgb(226, 172, 102);
-         font-size: 50px;
-         font-family: 'Courier New', Courier, monospace;
-         font-weight: 700;
-         margin-left: 200px;
-         margin-top: 50PX;
-     }
-
-     ol{
-         margin-left: 400px;
-     }
-
-     li{
-         color: rgb(226, 172, 102);
-         font-size: 30px;
-         font-family: 'Courier New', Courier, monospace;
-         font-weight: 700;
+p{
+    color: rgb(173, 170, 165);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
                       
-     }
+}
 
-     p{
-         color: rgb(173, 170, 165);
-         font-size: 20px;
-         font-family: 'Courier New', Courier, monospace;
-         font-weight: 600;
-                      
-     }
+h1{
+    color: rgb(226, 172, 102);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 50PX;
+}
+
+
+li{
+    color: rgb(226, 172, 102);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 15px;
+}
+
+
+
+/* --------------------------------
+          Country Details                  
+----------------------------------*/
+
+.main_country{
+    margin-left: 200px;
+}
+
+
+
+#countrys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;       
+}
+
+/* --------------------------------
+          Country Button                  
+----------------------------------*/
+
+
+.button{
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background: goldenrod;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+
+}
+
+/* --------------------------------
+          Country Name                
+----------------------------------*/ 
+
+button{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: none;
+    border: 2px solid rgb(212, 158, 87);
+    border-radius: 5px;
+    color: rgb(173, 170, 165);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+
+ul{
+    border: 1px solid rgb(212, 158, 87);
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+
+h4{
+    color: rgb(173, 170, 165);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+
+h3{
+    color: rgb(226, 172, 102);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+      
+}
